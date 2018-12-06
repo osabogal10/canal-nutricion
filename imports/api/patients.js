@@ -83,6 +83,8 @@ Meteor.methods({
 
         check(correo, String);
         check(clave, String);
+        
+        //deberian validar mas allá del tipo de los parametros.
 
         let paciente = null;
 
